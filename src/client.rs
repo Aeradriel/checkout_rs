@@ -3,6 +3,7 @@ use crate::{
 };
 use reqwest::Client as HttpClient;
 
+#[derive(Clone)]
 pub struct Client {
     pub base_url: String,
     pub http_client: HttpClient,
