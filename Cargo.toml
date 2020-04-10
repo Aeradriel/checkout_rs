@@ -2,6 +2,9 @@
 name = "checkout"
 version = "0.1.0"
 authors = ["Thibaut Roche <thibaut.roche.perso@gmail.com>"]
+description = "Rust implementation of the Checkout payment system"
+license = "MIT"
+repository = "https://github.com/Aeradriel/checkout_rs"
 edition = "2018"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
