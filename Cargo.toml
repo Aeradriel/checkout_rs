@@ -1,6 +1,6 @@
 [package]
 name = "checkout"
-version = "0.1.1"
+version = "0.1.2"
 authors = ["Thibaut Roche <thibaut.roche.perso@gmail.com>"]
 description = "Rust implementation of the Checkout payment system"
 license = "MIT"
