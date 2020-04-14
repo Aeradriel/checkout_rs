@@ -10,6 +10,7 @@ pub struct Payment {
     pub approved: bool,
     pub status: String,
     pub source: PaymentSource,
+    pub reference: String,
 }
 
 #[derive(Deserialize, Debug)]
