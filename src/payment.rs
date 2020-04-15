@@ -8,7 +8,7 @@ pub struct Payment {
     pub amount: i32,
     pub currency: String,
     pub approved: bool,
-    pub status: String,
+    pub status: PaymentStatus,
     pub source: PaymentSource,
     pub reference: String,
 }
@@ -19,6 +19,13 @@ pub struct PaymentSource {
     #[serde(rename = "type")]
     pub _type: String,
     pub last4: String,
+}
+
+#[derive(Serialize, Deserialize, Debug)]
+pub enum PaymentStatus {
+    Approved,
+    Declined,
+    Pending,
 }
 
 #[derive(Serialize, Debug)]
