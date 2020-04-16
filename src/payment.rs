@@ -24,6 +24,7 @@ pub struct PaymentSource {
 #[derive(Serialize, Deserialize, Debug)]
 pub enum PaymentStatus {
     Approved,
+    Captured,
     Declined,
     Pending,
 }
